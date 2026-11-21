@@ -3,6 +3,7 @@ import projects from "../data/projects";
 import specialities from "../data/specialities";
 import ProjectCard from "../components/ProjectCard";
 import SpecialityCard from "../components/SpecialityCard";
+import CountUp from "../components/CountUp";
 import "./Home.css";
 
 const stats = [
@@ -41,7 +42,9 @@ export default function Home() {
         <div className="container stats-bar__grid">
           {stats.map((stat) => (
             <div key={stat.label} className="stats-bar__item">
-              <span className="stats-bar__value">{stat.value}</span>
+              <span className="stats-bar__value">
+                <CountUp value={stat.value} />
+              </span>
               <span className="stats-bar__label">{stat.label}</span>
             </div>
           ))}
