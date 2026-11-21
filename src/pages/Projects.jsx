@@ -15,7 +15,7 @@ export default function Projects() {
 
   return (
     <>
-      <section className="page-hero">
+      <section className="page-hero page-hero--waves">
         <div className="container">
           <span className="eyebrow">Our Work</span>
           <h1>Projects across Ireland.</h1>

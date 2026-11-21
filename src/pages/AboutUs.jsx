@@ -27,7 +27,7 @@ const values = [
 export default function AboutUs() {
   return (
     <>
-      <section className="page-hero">
+      <section className="page-hero page-hero--waves">
         <div className="container">
           <span className="eyebrow">About Michael Connolly Contracts</span>
           <h1>Over 25 years of building across Ireland.</h1>
