@@ -20,12 +20,10 @@ export default function Home() {
       <section className="hero">
         <div className="container hero__inner">
           <span className="eyebrow">Building across Ireland since 1999</span>
-          <h1 className="hero__title">
-            Construction built on precision, safety, and trust.
-          </h1>
+          <h1 className="hero__title">Construction built on precision, safety, and trust.</h1>
           <p className="hero__subtitle">
-            Michael Connolly Contracts delivers commercial, residential, civil, and industrial
-            projects from groundworks to handover &mdash; on programme and on budget.
+            Michael Connolly Contracts delivers commercial, residential, civil, and industrial projects from groundworks
+            to handover on time and on budget.
           </p>
           <div className="hero__actions">
             <Link to="/projects" className="btn btn-primary">
@@ -56,8 +54,8 @@ export default function Home() {
           <span className="eyebrow">What we do</span>
           <h2 className="section-heading">Our specialities</h2>
           <p className="section-subtext">
-            A full-service construction partner across six core sectors, backed by
-            an in-house team of engineers, trades, and project managers.
+            A full-service construction partner across six core sectors, backed by an in-house team of engineers,
+            trades, and project managers.
           </p>
           <div className="grid grid-3" style={{ marginTop: 44 }}>
             {specialities.slice(0, 3).map((item) => (
@@ -77,8 +75,7 @@ export default function Home() {
           <span className="eyebrow">Recent work</span>
           <h2 className="section-heading">Featured projects</h2>
           <p className="section-subtext">
-            A selection of recently completed developments across commercial,
-            residential, and civil sectors.
+            A selection of recently completed developments across commercial, residential, and civil sectors.
           </p>
           <div className="grid grid-3" style={{ marginTop: 44 }}>
             {featured.map((project) => (

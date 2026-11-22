@@ -32,10 +32,9 @@ export default function AboutUs() {
           <span className="eyebrow">About Michael Connolly Contracts</span>
           <h1>Over 25 years of building across Ireland.</h1>
           <p className="page-hero__subtext">
-            Michael Connolly Contracts is a family-run building and civil engineering contractor based
-            in Dundalk, Co. Louth. We work across the commercial, residential, civil,
-            industrial, and public sectors &mdash; combining direct-labour trades with
-            experienced project management to deliver safely, on time, and on budget.
+            Michael Connolly Contracts is a family-run building and civil engineering contractor based in Dundalk, Co.
+            Louth. We work across the commercial, residential, civil, industrial, and public sectors combining
+            direct-labour trades with experienced project management to deliver safely, on time, and on budget.
           </p>
         </div>
       </section>
@@ -46,11 +45,9 @@ export default function AboutUs() {
             <span className="eyebrow">Our story</span>
             <h2 className="section-heading">From groundworks to general contracting</h2>
             <p className="section-subtext">
-              What started as a small groundworks outfit has grown into a full-service
-              construction company with an in-house team of engineers, carpenters,
-              steel-fixers, and plant operators. We've kept the same hands-on approach
-              since day one: the people who tender the job are the same people who
-              deliver it.
+              What started as a small groundworks outfit has grown into a full-service construction company with an
+              in-house team of engineers, carpenters, steel-fixers, and plant operators. We've kept the same hands-on
+              approach since day one: the people who tender the job are the same people who deliver it.
             </p>
           </div>
           <ul className="timeline">
@@ -68,9 +65,7 @@ export default function AboutUs() {
         <div className="container">
           <span className="eyebrow">What we do</span>
           <h2 className="section-heading">Our specialities</h2>
-          <p className="section-subtext">
-            Six core sectors, one in-house delivery team. Here's where we focus.
-          </p>
+          <p className="section-subtext">Six core sectors, one in-house delivery team. Here's where we focus.</p>
           <div className="grid grid-3" style={{ marginTop: 44 }}>
             {specialities.map((item) => (
               <SpecialityCard key={item.id} speciality={item} />

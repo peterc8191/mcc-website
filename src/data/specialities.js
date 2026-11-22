@@ -4,7 +4,7 @@ const specialities = [
     title: "Commercial Construction",
     icon: "🏢",
     description:
-      "Retail units, offices, and mixed-use developments delivered on tight programmes without compromising quality or safety.",
+      "Retail units, offices, and mixed-use developments delivered on tight projects without compromising quality or safety.",
   },
   {
     id: "residential",
