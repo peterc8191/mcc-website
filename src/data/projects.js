@@ -1,38 +1,32 @@
 // Completed projects, taken from the company brochure.
-// Optional fields (client, duration, year, stats) are omitted where the brochure doesn't state them.
+// Optional fields (duration, year, stats) are omitted where the brochure doesn't state them.
 // `hero` and `gallery` list image files in public/images/projects/<slug>/; the first gallery image leads the gallery.
 const rawProjects = [
   {
     id: 1,
     slug: "3300-citywest-business-park",
-    title: "3300 Citywest – Factory & Office Refurbishment",
+    title: "Citywest – Factory & Office Refurbishment",
     category: "Industrial",
-    location: "Citywest Business Park",
-    client: "Flatley (OSG Group Company)",
+    location: "Citywest Industrial Park",
     gradient: "linear-gradient(135deg, #0e2235 0%, #1f5f8f 60%, #8fb6e0 140%)",
     hero: "boardroom-wide.jpg",
     gallery: [
       ["boardroom-wide.jpg", "Boardroom with long timber table and glazed partition"],
       ["first-floor-atrium.jpg", "First-floor atrium with glass balustrade overlooking the boardroom"],
-      ["reception-feature-wall.jpg", "Reception feature wall with timber slats and company signage"],
       ["breakout-area.jpg", "Breakout area with timber slatted screen and soft seating"],
       ["kitchen.jpg", "Fitted staff kitchen with island and bar stools"],
       ["canteen.jpg", "Staff canteen with dining tables and pendant lighting"],
       ["open-plan-office.jpg", "Open-plan office space with new ceiling and lighting"],
-      ["reception-seating.jpg", "Reception seating area with branded feature wall"],
       ["breakout-seating.jpg", "Breakout seating against a blue feature wall"],
       ["office-feature-wall.jpg", "Refurbished office with blue feature wall"],
       ["boardroom.jpg", "Boardroom table with linear ceiling lighting"],
       ["atrium-glass-balustrade.jpg", "Glass balustrade around the first-floor atrium"],
       ["warehouse-floor.jpg", "Repaired and resealed warehouse floor"],
-      ["main-entrance.jpg", "Main entrance with new building signage"],
-      ["exterior-signage.jpg", "Building exterior with new signage"],
-      ["exterior-signage-detail.jpg", "Close-up of exterior building signage"],
     ],
     summary:
       "A complete refurbishment and refit of the existing factory and office facilities, creating a modern, functional, and professional working environment.",
     description:
-      "A complete refurbishment and refit of the existing factory and office facilities at 3300 Citywest, transforming the premises into a modern, functional, and professional working environment. The works included the replacement of existing ceiling systems, installation of new electrical services to accommodate the requirements of the business, and refurbishment of the warehouse flooring through repairs and resealing. Existing ceiling tiles were also replaced where required, providing a refreshed and improved finish throughout the building. The office refurbishment focused on creating a sleek, contemporary working environment, with modern finishes throughout the office spaces and communal areas. The overall project significantly enhanced the appearance, functionality, and usability of the premises, delivering an updated facility tailored to the client's operational needs.",
+      "A complete refurbishment and refit of the existing factory and office facilities at Citywest, transforming the premises into a modern, functional, and professional working environment. The works included the replacement of existing ceiling systems, installation of new electrical services to accommodate the requirements of the business, and refurbishment of the warehouse flooring through repairs and resealing. Existing ceiling tiles were also replaced where required, providing a refreshed and improved finish throughout the building. The office refurbishment focused on creating a sleek, contemporary working environment, with modern finishes throughout the office spaces and communal areas. The overall project significantly enhanced the appearance, functionality, and usability of the premises, delivering an updated facility tailored to the client's operational needs.",
     features: [
       "Replacement of existing ceiling systems and ceiling tiles where required",
       "New electrical services installed to meet the requirements of the business",
@@ -57,8 +51,7 @@ const rawProjects = [
       ["dock-leveller.jpg", "Insulated dock leveller and loading door"],
       ["refurbished-office.jpg", "Refurbished office space"],
     ],
-    summary:
-      "Asbestos roof removal, a new PIR insulated roofing system, and a full refit of the office space.",
+    summary: "Asbestos roof removal, a new PIR insulated roofing system, and a full refit of the office space.",
     description:
       "At Airways Business Park we removed the existing asbestos roofing in full compliance with health and safety regulations and installed a new PIR insulated roofing system to improve thermal performance and durability. Outdated office areas were fully demolished to prepare for redevelopment, the dock leveller was installed and insulated, and the office space was refitted and upgraded throughout.",
     features: [
@@ -71,31 +64,8 @@ const rawProjects = [
   },
   {
     id: 3,
-    slug: "orior-by-design",
-    title: "Orior by Design",
-    category: "Industrial",
-    location: "Greenbank Industrial Estate, Newry, Co. Down",
-    client: "Orior by Design",
-    gradient: "linear-gradient(135deg, #0e2235 0%, #2a5a82 65%, #8fb6e0 140%)",
-    hero: "joinery-workshop.jpg",
-    gallery: [
-      ["joinery-workshop.jpg", "Joinery workshop inside the factory extension"],
-    ],
-    summary:
-      "A new factory extension and joinery shop fit-out, plus refurbishment of the existing factory with a new second floor.",
-    description:
-      "For Orior by Design we built a new factory extension and fitted out the joinery shop, then refurbished the existing factory and installed a second floor within it. We delivered all aspects of the M&E works and renewed and extended the existing car park.",
-    features: [
-      "New factory extension and fit-out of joinery shop",
-      "Refurbishment of existing factory and installation of a second floor",
-      "All aspects of M&E",
-      "Existing car park renewed and extended",
-    ],
-  },
-  {
-    id: 4,
     slug: "3030-citywest-business-park",
-    title: "3030 Citywest Business Park",
+    title: "Citywest Business Park",
     category: "Commercial",
     location: "Citywest Business Park",
     gradient: "linear-gradient(135deg, #1e2a36 0%, #4a4d52 60%, #5b93cf 140%)",
@@ -115,7 +85,7 @@ const rawProjects = [
     summary:
       "A customised office fit-out with fire-resistant materials and partitions, ceilings, and structures upgraded to fireproofing standards.",
     description:
-      "At 3030 Citywest Business Park we completed a customised office fit-out to meet the client's needs. Fire-resistant materials were installed for full fire safety compliance, and partitions, ceilings, and structures were upgraded to fireproofing standards. We coordinated the MEP works with the new layout and oversaw site work, subcontractors, and quality control throughout.",
+      "At Citywest Business Park we completed a customised office fit-out to meet the client's needs. Fire-resistant materials were installed for full fire safety compliance, and partitions, ceilings, and structures were upgraded to fireproofing standards. We coordinated the MEP works with the new layout and oversaw site work, subcontractors, and quality control throughout.",
     features: [
       "Customised office fit-out to meet client needs",
       "Fire-resistant materials installed for full fire safety compliance",
@@ -125,23 +95,24 @@ const rawProjects = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     slug: "credit-union-forresters-hall",
     title: "Credit Union, Forrester's Hall",
     category: "Commercial",
     location: "Forrester's Hall, Dundalk, Co. Louth",
-    client: "Credit Union",
     gradient: "linear-gradient(135deg, #0a1826 0%, #1e4566 60%, #2f72b3 140%)",
     hero: "open-office-arched-windows.jpg",
     gallery: [
-      ["open-office-arched-windows.jpg", "Open office behind a black-framed glazed screen, with original arched windows"],
+      [
+        "open-office-arched-windows.jpg",
+        "Open office behind a black-framed glazed screen, with original arched windows",
+      ],
       ["glazed-screen-office.jpg", "Black-framed glazed screen dividing the office space"],
       ["glazed-screen-brick-feature.jpg", "Glazed screen in front of exposed brickwork"],
       ["exposed-services-brick.jpg", "Office with exposed brick walls and exposed services"],
       ["entrance-hall.jpg", "Restored entrance hall with chequered tiled floor"],
     ],
-    summary:
-      "Restoration of a conservation building, with new sub-floors and finishes and a complete office fit-out.",
+    summary: "Restoration of a conservation building, with new sub-floors and finishes and a complete office fit-out.",
     description:
       "At Forrester's Hall in Dundalk we restored the existing conservation building, bringing its structural and aesthetic elements back to a high standard. The existing concrete flooring was fully demolished to prepare for new works, followed by new sub-floors and surface finishes and a complete office fit-out. We coordinated all trades on site to keep work flowing and compliant with building regulations.",
     features: [
@@ -153,12 +124,11 @@ const rawProjects = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     slug: "yew-grove-reit-naas",
     title: "Yew Grove REIT",
     category: "Industrial",
     location: "Naas Enterprise Park, Naas, Co. Kildare",
-    client: "Yew Grove REIT",
     gradient: "linear-gradient(135deg, #15324c 0%, #2f72b3 65%, #8fb6e0 140%)",
     hero: "warehouse-exterior.png",
     gallery: [
@@ -179,12 +149,11 @@ const rawProjects = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     slug: "icon-accounting-swords",
     title: "Icon Accounting",
     category: "Commercial",
     location: "Columba House, Airside Retail Park, Swords, Co. Dublin",
-    client: "Icon Accounting",
     duration: "4 months",
     gradient: "linear-gradient(135deg, #1e4566 0%, #1f5f8f 60%, #5b93cf 130%)",
     hero: "columba-house-exterior.png",
@@ -216,5 +185,4 @@ const projects = rawProjects.map((project) => ({
 
 export default projects;
 
-export const getProjectBySlug = (slug) =>
-  projects.find((project) => project.slug === slug);
+export const getProjectBySlug = (slug) => projects.find((project) => project.slug === slug);

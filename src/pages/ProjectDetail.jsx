@@ -17,7 +17,6 @@ export default function ProjectDetail() {
     .slice(0, 3);
 
   const details = [
-    { label: "Client", value: project.client },
     { label: "Location", value: project.location },
     { label: "Duration", value: project.duration },
     { label: "Completed", value: project.year },
@@ -34,8 +33,7 @@ export default function ProjectDetail() {
             &larr; All projects
           </Link>
           <span className="pill project-hero__pill">{project.category}</span>
-          <h1>{project.title}</h1>
-          <p>{project.location}</p>
+          <h1>{project.location}</h1>
         </div>
       </section>
 
@@ -86,7 +84,7 @@ export default function ProjectDetail() {
           <div className="container">
             <span className="eyebrow">Gallery</span>
             <h2 className="section-heading">Project photos</h2>
-            <ProjectGallery images={project.gallery} title={project.title} />
+            <ProjectGallery images={project.gallery} title={project.location} />
           </div>
         </section>
       )}

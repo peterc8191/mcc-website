@@ -16,9 +16,9 @@ const specialities = [
   {
     id: "civil",
     title: "Civil Engineering",
-    icon: "🌉",
+    icon: "🚧",
     description:
-      "Roads, bridges, and infrastructure works carried out under live traffic conditions with strict environmental controls.",
+      "Roads and infrastructure works carried out under live traffic conditions with strict environmental controls.",
   },
   {
     id: "industrial",

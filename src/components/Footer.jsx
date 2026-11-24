@@ -22,7 +22,7 @@ export default function Footer() {
           <ul className="site-footer__list">
             <li>
               <span className="site-footer__label">Address</span>
-              Jenkinstown, Dundalk, Co. Louth
+              Jenkinstown, Dundalk, Co. Louth, A91 HN70
             </li>
             <li>
               <span className="site-footer__label">Office</span>
@@ -61,7 +61,7 @@ export default function Footer() {
         <div className="site-footer__col">
           <h4>Request a Quote</h4>
           <p className="site-footer__cta-text">
-            Tell us about your project and our team will respond within one business day.
+            Tell us about your project.
           </p>
           <a href="mailto:info@connollycontracts.ie" className="btn btn-outline">
             Email Our Team

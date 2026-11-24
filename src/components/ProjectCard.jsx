@@ -9,10 +9,8 @@ export default function ProjectCard({ project }) {
         <span className="pill project-card__pill">{project.category}</span>
       </div>
       <div className="project-card__body">
-        <span className="project-card__meta">
-          {project.year ? `${project.location} · ${project.year}` : project.location}
-        </span>
-        <h3>{project.title}</h3>
+        {project.year && <span className="project-card__meta">{project.year}</span>}
+        <h3>{project.location}</h3>
         <p>{project.summary}</p>
         <span className="project-card__link">View project &rarr;</span>
       </div>

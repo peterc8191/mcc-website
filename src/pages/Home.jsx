@@ -96,9 +96,6 @@ export default function Home() {
             <h2>Have a project in mind?</h2>
             <p>Tell us about your site, scope, and timeline &mdash; we'll come back with a straight answer.</p>
           </div>
-          <a href="#contact" className="btn btn-primary">
-            Start a Conversation
-          </a>
         </div>
       </section>
     </>
